@@ -20,7 +20,7 @@
 
 
 .Card {
-    width: 25%;
+    width: 22%;
     float: left;
     background: rgba(226, 216, 190, 0.171);
     border-radius: 10px;
@@ -33,7 +33,6 @@
 
 .card_container {
     flex: left;
-    display: flex;
     width: 100%;
 }
 
