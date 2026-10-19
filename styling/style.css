@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.container {
+    margin:0 auto ;
+    width: 80%
+}
+
+/* it is a must to put it inside an empty div after the rest of all divs */
+.fix_clear {
+    clear: both
+}
+
+
+.Card {
+    width: 25%;
+    float: left;
+    background: rgba(226, 216, 190, 0.171);
+    border-radius: 10px;
+    padding: 24px;
+    margin: 10px 1%  20px 10px;
+
+
+
+}
+
+.card_container {
+    flex: left;
+    display: flex;
+    width: 100%;
+}
+
+
+
+.header {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    background: rgba(4, 119, 208, 0.171);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.242);
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 8px;
+
+}
+
+.nav {
+    margin: 30px;
+}
+
+.title {
+    color: #22b1c7;
+    font-size: 20px;
+    /* padding-bottom: 20px; */
+    padding-top: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+#about p span {
+    color: #22b1c7;
+}
+
+h2 {
+    color: #012d4f;
+}
+
+h3 {
+    color: #9f0c07;
+}
+
+h4 {
+    color: #22b1c7;
+}
+
+#about button {
+    background-color: rgba(1, 45, 79, 1);
+    color: #fff;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button {
+    background-color: rgba(4, 119, 208, 0.171);
+    color: #fff;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav a {
+    text-decoration: none;
+    background: rgba(4, 119, 208, 0.171);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.242);
+    border-radius: 50px;
+}
+
+
+
+.space_between {
+    padding: 10px 20px;
+    margin: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    color: #00ddff;
+}
+
+#footer {
+    margin-top: 20px;
+
+}
+
+#footer p {
+    color: #fff;
+}
+
+.navy_card {
+    background-color: #012d4f;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+
+
+.white_text {
+    color: #fff;
+}
+
+.light_card {
+    background-color:
+        rgba(249, 246, 230, 1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+div .space_card {
+    padding: 20px;
+    margin: 10px;
+}
+
+#experience div .space_card {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border-left: 5px solid #012d4f;
+    background-color: #fffafa;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 100px;
+    align-items: center;
+    width: 150px;
+}
